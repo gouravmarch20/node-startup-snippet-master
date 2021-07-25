@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 //---  Schema 
-const UserSchema = new mongooose.Schema({});
+const UserSchema = new mongoose.Schema({});
 // --- mongooose methord
 UserSchema.methods.addMessage = async function () {};
 //--- collection name : User
